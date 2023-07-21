@@ -52,7 +52,7 @@ function createMovieContainer(movie) {
   });
   movieContainer.appendChild(removeFromWatchlistButton);
   var updateButton = document.createElement("button");
-  updateButton.textContent = "WATCHED MOVIE";
+  updateButton.textContent = "UPDATE MOVIE STATUS";
   updateButton.className = "update-button"; 
   updateButton.addEventListener("click", function() {
     updateMovieInWatchlist(movie);

@@ -81,6 +81,9 @@ document.addEventListener("DOMContentLoaded", function () {
     var movieID = document.createElement("p");
     movieID.textContent = "MOVIE ID: " + movie.imdbID;
     movieContainer.appendChild(movieID);
+    var movieYear = document.createElement("p");
+    movieYear.textContent = "YEAR: " + movie.Year;
+    movieContainer.appendChild(movieYear);
     var movieSynopsis = document.createElement("p");
     movieSynopsis.textContent = "SYNOPSIS: " + (movie.details.Plot || "N/A");
     movieContainer.appendChild(movieSynopsis);

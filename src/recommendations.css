@@ -7,7 +7,7 @@ body {
   color: #fff; 
   margin: 0;
   padding: 0;
-  background-image: url("bg2.jpg"); 
+  background-image: url("bg4.jpg"); 
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -28,7 +28,7 @@ body {
   padding: 12px;
   font-size: 18px;
   width: 500px;
-  border: 2px solid #ccc;
+  border: 10px solid #FF0000;
   border-radius: 40px;
   outline: none;
   background-color: rgba(0, 0, 0, 0.6); 
@@ -57,21 +57,18 @@ body {
   width: 500px;
   border-radius: 40px;
   outline: none;
-  border: 1px solid rgba(255, 255, 255, 0.2); 
+  border: 2px solid #FF0000;
 }#search_button {
   display: inline-block;
-  padding: 10px 20px; 
-  font-size: 18px; 
+  padding: 10px 20px;
+  font-size: 18px;
   border: none;
-  background-color: rgba(0, 0, 0, 0.6); 
+  background-color: #FF0000;
   color: #fff; 
   border-radius: 40px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   outline: none;
-}#search_button:hover {
-  background-color: rgba(255, 255, 255, 0.9); 
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,32,1) 100%);
 }h2 {
   text-align: center;
   margin: 50px 0 20px;
@@ -117,19 +114,14 @@ body {
   color: #fff;
   margin-bottom: 10px;
 }.movie-item button {
-  display: block;
-  margin: 0 auto;
-  padding: 12px 20px; 
-  font-size: 18px; 
-  border: none;
-  background-color: rgba(0, 0, 0, 0.6); 
-  color: #fff; 
-  border-radius: 40px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin-top: 30px;
-  outline: none;
-}.movie-item button:hover {
-  background-color: rgba(255, 255, 255, 0.9); 
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,32,1) 100%);
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #FF0000; /* Change the background color to #FF0000 */
+    color: #fff; /* Change the text color to white */
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
 }
